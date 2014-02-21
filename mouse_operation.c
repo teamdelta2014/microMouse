@@ -93,11 +93,16 @@ void LineFollowing ()
             }
             else if (infraredFrontLeft) {
                 // left sensor detects; avoid left obstacle
+                ControlMouse(MOUSE_ACTION_STOP);
+                ControlMouse(MOUSE_ACTION_REVERSE);
+                ControlMouse(MOUSE_ACTION_TURNRIGHT);
 
             }
             else if (infraredFrontRight) {
                 // right sensor detects; avoid right obstacle
-
+                ControlMouse(MOUSE_ACTION_STOP);
+                ControlMouse(MOUSE_ACTION_REVERSE);
+                ControlMouse(MOUSE_ACTION_TURNLEFT);
             }
             else {
                 // both sensors detect; avoid front obstacle

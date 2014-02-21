@@ -1,6 +1,7 @@
 ///
 /// @file       main.c
-/// @author     Kyeong Soo (Joseph) Kim <k.s.kim@swansea.ac.uk>
+/// @authors    Kyeong Soo (Joseph) Kim <k.s.kim@swansea.ac.uk>
+///             David Jenner <741261@swansea.ac.uk>
 /// @date       2012-02-21
 ///
 /// @brief      Main part of the micro mouse program

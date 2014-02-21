@@ -62,8 +62,12 @@ void ControlMotor(Motor motor, MotorAction action)
 }
 
 
+void ControlSpeed(void) {
+}
+
+
 // main speed control function called by TPM2 timer overflow ISR
-void ControlSpeed(void)
+void ControlSpeed_old(void)
 {
     //int diff;
     word tmpLeft, tmpRight;

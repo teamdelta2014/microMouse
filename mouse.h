@@ -86,10 +86,10 @@ typedef enum {
 /// @name Touch Bar Switches
 /// We assume that PTAD0-3 are connected to switches.
 //@{
-#define touchBarFrontLeft   PTAD_PTAD1
-#define touchBarFrontRight  PTAD_PTAD2
-#define touchBarRearLeft    PTAD_PTAD3
-#define touchBarRearRight   PTAD_PTAD0
+#define touchBarFrontLeft   PTAD_PTAD0
+#define touchBarFrontRight  PTAD_PTAD7
+#define touchBarRearLeft    PTAD_PTAD1
+#define touchBarRearRight   PTAD_PTAD6
 //@}
 
 /// @name IR sensors
